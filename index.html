@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Mobile Web 应用程序</title>
+<link href="jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="page" data-role="page">
+  <div data-role="header" data-theme="b">
+    <h1>历史年表</h1>
+  </div>
+  <div data-role="content">
+    <ul data-role="listview">
+      <li><a href="#page2">史前时期 ～前3000年</a></li>
+      <li><a href="#page3">第 3 页</a></li>
+      <li><a href="#page4">第 4 页</a></li>
+    </ul>
+  </div>
+  <div data-role="footer" data-theme="b" data-position="fixed">
+    <h4>页脚</h4>
+  </div>
+</div>
+<div data-role="page" id="page2">
+  <div data-role="header" data-theme="b">
+    <h1>史前时期</h1>
+  </div>
+  <div data-role="content">
+    <ul>
+      <li>前730,000年：<a href="http://zh.m.wikipedia.org/wiki/%E5%91%A8%E5%8F%A3%E5%BA%97" title="周口店">周口店</a><a href="http://zh.m.wikipedia.org/wiki/%E5%8C%97%E4%BA%AC%E4%BA%BA" title="北京人">北京人</a></li>
+      <li>前7500年：<a href="http://zh.m.wikipedia.org/wiki/%E5%BD%AD%E5%A4%B4%E5%B1%B1%E6%96%87%E5%8C%96">彭头山文化</a>，最早出现稻谷的中国史前文化</li>
+      <li>前7000年：<a href="http://zh.m.wikipedia.org/wiki/%E8%A3%B4%E6%9D%8E%E5%B4%97%E6%96%87%E5%8C%96" title="裴李岗文化">裴李岗文化</a></li>
+      <li>前6000年：<a href="http://zh.m.wikipedia.org/wiki/%E7%A3%81%E5%B1%B1%E6%96%87%E5%8C%96" title="磁山文化">磁山文化</a></li>
+      <li>前3000年：<a href="http://zh.m.wikipedia.org/wiki/%E9%BE%8D%E5%B1%B1%E6%96%87%E5%8C%96" title="龙山文化" class="mw-redirect">龙山文化</a></li>
+    </ul>
+  </div>
+  <div data-role="footer" class="ui-btn" data-theme="b" data-position="fixed"> 
+
+    <a href="#page" data-role="button" class="ui-btn-right" data-icon="back" >Back</a>
+
+  </div>
+</div>
+<div data-role="page" id="page3">
+  <div data-role="header" data-theme="b">
+    <h1>第 3 页</h1>
+  </div>
+  <div data-role="content"> 内容 </div>
+  <div data-role="footer" data-theme="b">
+    <h4>页脚</h4>
+  </div>
+</div>
+<div data-role="page" id="page4">
+  <div data-role="header" data-theme="b">
+    <h1>第 4 页</h1>
+  </div>
+  <div data-role="content"> 内容 </div>
+  <div data-role="footer" data-theme="b">
+    <h4>页脚</h4>
+  </div>
+</div>
+</body>
+</html>
